@@ -1,0 +1,36 @@
+{
+  "name": "express-typescript",
+  "version": "1.0.0",
+  "description": "Node.js - Express server in typescript",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "ts-node-dev src/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgkul2000/express-typescript.git"
+  },
+  "author": "Shreesh Kulkarni <sgkul2000@gail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sgkul2000/express-typescript/issues"
+  },
+  "homepage": "https://github.com/sgkul2000/express-typescript#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.8",
+    "@types/express": "^4.17.9",
+    "@types/morgan": "^1.9.2",
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "morgan": "^1.10.0"
+  }
+}
